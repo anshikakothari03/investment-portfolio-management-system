@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<div class="navbar">
+  <a href="investor.html">Investor</a>
+  <a href="advisor.html">Advisor</a>
+  <a href="admin.html">Admin</a>
+</div>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>System Admin Panel</h1>
+    <div class="user">Super Admin</div>
+  </header>
+
+  <!-- Add User -->
+  <section class="card">
+    <h2>Add User</h2>
+    <input type="text" placeholder="Full Name">
+    <input type="email" placeholder="Email">
+    <select>
+      <option>Select Role</option>
+      <option>Investor</option>
+      <option>Advisor</option>
+    </select>
+    <button>Add User</button>
+  </section>
+
+  <!-- Users List -->
+  <section class="card">
+    <h2>Users List</h2>
+    <table>
+      <tr><th>Name</th><th>Role</th><th>Status</th></tr>
+      <tr><td>John Doe</td><td>Investor</td><td>Active</td></tr>
+      <tr><td>Sarah Ross</td><td>Advisor</td><td>Active</td></tr>
+      <tr><td>Micheal Brown</td><td>Advisor</td><td>Active</td></tr>
+      <tr><td>Jane Smith</td><td>Investor</td><td>Pending</td></tr>
+      <tr><td>Alex Morgan</td><td>Investor</td><td>Pending</td></tr>
+      <tr><td>Jordan Lee</td><td>Investor</td><td>Pending</td></tr>
+      <tr><td>Taylor Kim</td><td>Investor</td><td>Active</td></tr>
+      <tr><td>Sam Wilson</td><td>Investor</td><td>Active</td></tr>
+    </table>
+  </section>
+
+  <!-- Add Asset -->
+  <section class="card">
+    <h2>Add Asset</h2>
+    <input type="text" placeholder="Asset Name">
+    <input type="text" placeholder="Ticker Symbol">
+    <select>
+      <option>Select Type</option>
+      <option>Equity</option>
+      <option>Crypto</option>
+      <option>ETF</option>
+    </select>
+    <button>Add Asset</button>
+  </section>
+
+  <!-- Asset List -->
+  <section class="card">
+    <h2>Available Assets</h2>
+    <table>
+      <tr><th>Asset</th><th>Type</th><th>ID</th></tr>
+      <tr><td>AAPL</td><td>Equity</td><td>A-001</td></tr>
+      <tr><td>BTC</td><td>Crypto</td><td>C-052</td></tr>
+      <tr><td>VTI</td><td>ETF</td><td>E-104</td></tr>
+    </table>
+  </section>
+
+</div>
+
+</body>
+</html>

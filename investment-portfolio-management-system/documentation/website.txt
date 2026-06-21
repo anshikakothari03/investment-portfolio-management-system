@@ -1,0 +1,32 @@
+Personal Investment Portfolio Management System (Task D)
+
+Name: Anshika Kothari
+
+Team Number: 17
+
+Website URL:
+
+http://betaweb.csug.rochester.edu/~akothar9/index.php
+
+Description:
+
+I developed a web-based Investment Portfolio System that allows interaction with five database with tables: USERS, ASSETS, PORTFOLIOS, HOLDINGS, and TRANSACTIONS.
+
+The application supports:
+- Viewing all tables using navigation links
+- Inserting new records through forms
+- Updating existing user details (name, email, role, status)
+- Deleting records dynamically
+- Searching users by name
+
+All tables are displayed in structured format with proper headers, and the system is implemented using PHP and MySQL on the Betaweb server.
+
+Contribution:
+This project was completed individually. I was responsible for:
+- Designing the database schema
+- Creating all tables and loading data
+- Implementing full CRUD operations (Create, Read, Update, Delete)
+- Developing the PHP backend logic
+- Building the user interface with HTML/CSS
+- Debugging and fixing runtime and syntax errors
+- Deploying and testing the application on the Betaweb server

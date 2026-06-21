@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Advisor Interface</title>
+  <link rel="stylesheet" href="style.css">
+<div class="navbar">
+  <a href="investor.html">Investor</a>
+  <a href="advisor.html">Advisor</a>
+  <a href="admin.html">Admin</a>
+</div>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>Advisor Interface</h1>
+    <div class="user"></div>
+  </header>
+
+  <section class="card">
+    <h2>Select Investor</h2>
+    <select>
+      <option>Select Investor...</option>
+      <option>John Doe</option>
+      <option>Jane Smith</option>
+      <option>Alex Morgan</option>
+      <option>Jordan Lee</option>
+      <option>Taylor Kim</option>
+      <option>Sam Wilson</option>
+    </select>
+  </section>
+
+  <section class="card summary">
+    <div>Total Value: <b>$124,500</b></div>
+    <div>Risk Level: <b>Moderate</b></div>
+    <div>Assets Count: <b>12</b></div>
+    <div>Last Active: <b>2h ago</b></div>
+  </section>
+
+  <section class="card">
+    <h2>Portfolio Holdings</h2>
+    <table>
+      <tr><th>Asset</th><th>Quantity</th></tr>
+      <tr><td>AAPL</td><td>15.00</td></tr>
+      <tr><td>BTC</td><td>0.245</td></tr>
+      <tr><td>TSLA</td><td>10.00</td></tr>
+    </table>
+  </section>
+
+  <section class="card">
+    <h2>Transaction History</h2>
+    <table>
+      <tr><th>Date</th><th>Asset</th><th>Type</th><th>Qty</th><th>Price</th></tr>
+      <tr><td>2024-02-10</td><td>AAPL</td><td>BUY</td><td>5.00</td><td>$180.20</td></tr>
+      <tr><td>2024-02-05</td><td>BTC</td><td>BUY</td><td>0.01</td><td>$42000</td></tr>
+    </table>
+  </section>
+
+</div>
+
+</body>
+</html>
